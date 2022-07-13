@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #f9faf8;
+    padding: 0px 100px 0 100px;
+}
+
+.logo {
+   font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content {
+    display: flex;
+    background-color: #1f2937;
+    gap: 25px;
+    justify-content: space-between;
+    padding: 10px 100px 30px 100px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.content .text .secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 90px;
+    height: 30px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+img {
+    width: 350px;
+    height: 200px;
+}
+
+.footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #f9faf8;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+.items {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 25px;
+}
+
+.img1 {
+    border: 4px solid rgb(10, 51, 68);
+}
+
+.img2 {
+    border: 4px solid rgb(1, 7, 10);
+}
+
+.img3 {
+    border: 4px solid rgb(177, 18, 39);
+}
+
+.img4 {
+    border: 4px solid rgb(53, 5, 7);
+}
+
+.items img {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+.items li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: #e5e7eb;
+    padding: 0px 100px 0 100px;
+    gap: 10px;
+}
+
+.quote .author {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    background-color: #3882f6;
+    border-radius: 4px;
+    color: #e5e7eb;
+    padding: 20px 40px 20px 40px;
+    margin: 10px 100px 30px 100px;
+}
