@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header {
@@ -8,7 +9,7 @@ body {
     justify-content: space-between;
     align-items: center;
     color: #f9faf8;
-    padding: 0px 100px 0 100px;
+    padding: 0 120px 0 120px;
 }
 
 .logo {
@@ -28,7 +29,7 @@ body {
     background-color: #1f2937;
     gap: 25px;
     justify-content: space-between;
-    padding: 10px 100px 30px 100px;
+    padding: 80px 120px 80px 120px;
 }
 
 .text {
@@ -48,9 +49,10 @@ body {
     color: #e5e7eb;
 }
 
-button {
+.content button {
     background-color: #3882f6;
     border-radius: 8px;
+    border-width: 1px;
     width: 90px;
     height: 30px;
     color: #f9faf8;
@@ -62,21 +64,21 @@ img {
     height: 200px;
 }
 
-.footer {
+footer {
     background-color: #1f2937;
     font-size: 18px;
     color: #f9faf8;
-    text-align: center;
-    position: absolute;
     bottom: 0;
     width: 100%;
-    height: 50px;
+    text-align: center;
+    padding: 10px 0 10px 0;
 }
 
 .information {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px 120px 30px 120px;
 }
 
 .info-header {
@@ -127,7 +129,7 @@ img {
     flex-direction: column;
     /* align-items: center; */
     background-color: #e5e7eb;
-    padding: 0px 100px 0 100px;
+    padding: 50px 120px 50px 120px;
     gap: 10px;
 }
 
@@ -145,5 +147,16 @@ img {
     border-radius: 4px;
     color: #e5e7eb;
     padding: 20px 40px 20px 40px;
-    margin: 10px 100px 30px 100px;
+    margin: 50px 120px 50px 120px;
+}
+
+.call-to-action button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-color: #e5e7eb;
+    border-width: 1px;
+    width: 90px;
+    height: 30px;
+    color: #f9faf8;
+    font-weight: bold;
 }
